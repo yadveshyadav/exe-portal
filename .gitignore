@@ -1,0 +1,55 @@
+# Employee Control Portal - Root Git Ignore
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Node / Frontend
+node_modules/
+dist/
+dist-ssr/
+*.local
+.npm
+.eslintcache
+.stylelintcache
+*.tsbuildinfo
+
+# IDE & OS
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs & Databases
+*.log
+*.sqlite
+*.sqlite3
+instance/
+.pytest_cache/
+.coverage
+htmlcov/
